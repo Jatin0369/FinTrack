@@ -12,9 +12,13 @@ class LoginClass:
         self.e_id = None
         self.psswd = None
         self.window = None
+
+        # Un-comment below code for light mode 
         # self.theme = 'mylight'
         # self.mode = 'light'
 
+        # This runs dark mode 
+        # Comment this and run above lines for light mode
         self.theme = 'cyborg'
         self.mode = 'dark'
 
